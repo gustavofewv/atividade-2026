@@ -1,10 +1,10 @@
-# 3. Função criada utilizando 'def'
-def calcular_desempenho(lista_notas):
-    # 1. Primeira função Built-in nova: sum() 
+#  Função criada utilizando 'def'
+def calcular_notas(lista_notas):
+    #  Primeira função Built-in nova
     # Ela soma todos os valores de uma lista automaticamente
     total = sum(lista_notas)
-    
-    # 1. Segunda função Built-in nova: len()
+ 
+    #  Segunda função Built-in nova
     # Ela conta quantos itens existem na lista
     quantidade = len(lista_notas)
     
@@ -15,11 +15,11 @@ def calcular_desempenho(lista_notas):
 minhas_notas = [8.5, 7.0, 9.2, 6.5]
 
 # Chamando a função 
-media_final = calcular_desempenho(minhas_notas)
+media_final = calcular_notas(minhas_notas)
 
 print(f"Sua média final foi: {media_final:.2f}")
 
-# 2. Estrutura condicional (if...else)
+# Estrutura condicional (if else)
 if media_final >= 7:
     print("Resultado: Parabéns, você foi aprovado!")
 else:
